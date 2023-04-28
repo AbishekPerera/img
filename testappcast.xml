@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>1.0.5</title>
-    <link>http://yourapp.com</link>
-    <description>Latest version of your app.</description>
-    <item>
-      <title>Version 1.1.0</title>
-      <sparkle:releaseNotesLink>http://yourapp.com/release-notes</sparkle:releaseNotesLink>
-      <pubDate>Thu, 28 Apr 2023 12:00:00 GMT</pubDate>
-      <enclosure url="https://play.google.com/store/apps/details?id=com.dbeeta.sjic" sparkle:version="1.1.0" sparkle:shortVersionString="1.1.0" type="application/octet-stream" length="12345"/>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Debt Now App - Appcast</title>
+        <item>
+            <title>Version 1.15.0</title>
+            <description>desc</description>
+            <pubDate>Sun, 30 Dec 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.dbeeta.sjic" sparkle:version="1.15.0" sparkle:os="android" />
+        </item>
+    </channel>
 </rss>
